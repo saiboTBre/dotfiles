@@ -1,0 +1,38 @@
+{
+  "Quick  Import": {
+    "prefix": "impp",
+    "body": ["import $1 from \"./$1\";"]
+  },
+  "Quick  Export": {
+    "prefix": "expp",
+    "body": ["export { default as $1 } from \"./$1\";"]
+  },
+  "React Component Index Boilerplate": {
+    "prefix": "boilerindex",
+    "body": ["import $1 from \"./$1\";", "", "export default $1;"]
+  },
+  "React Stateless Component Boilerplate": {
+    "prefix": "bs",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "const $1 = () => {",
+      " return <h1>$1</h1>;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  },
+  "React Stateless Component Hooks Boilerplate": {
+    "prefix": "bss",
+    "body": [
+      "import React, { useState, useEffect } from \"react\";",
+      "",
+      "const $1 = () => {",
+      " return <h1>$1</h1>;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  }
+}
