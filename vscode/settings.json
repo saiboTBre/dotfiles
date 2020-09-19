@@ -1,0 +1,16 @@
+{
+  // Controls if the editor should automatically format the line after typing
+  "beautify.onSave": true,
+
+  "editor.formatOnSave": true,
+
+  // You can auto format any files based on the file extensions type.
+  "beautify.JSfiles": ["js", "json", "jsbeautifyrc", "jshintrc", "ts"],
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDelete": false
+}
